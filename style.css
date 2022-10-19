@@ -70,14 +70,14 @@ header {
 }
 
 .header-number-title {
-    font-size: 13px;
+    font-size: 16px;
     margin-bottom: 2px;
     font-weight: 400;
 }
 
 .header-number a {
     color: #000;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -418,6 +418,38 @@ footer {
 
 /*  sm = 768-991 */
 @media (min-width: 768px) and (max-width: 991px) {
+    .header-number-title {
+        font-size: 14px;
+    }
+
+    .header-number a {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .logo-img {
+        width: 35px;
+        height: 35px;
+    }
+    .comp-name-regular, .comp-name-italic{
+        font-size: 19px;
+    }
+
+    .comp-desc {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 0.01em;
+    }
+
+    .profile-btn{
+        width: 84px;
+        height: 39px;
+    }
+    .cart-btn{
+        height: 39px;
+        width: 118px;
+    }
     .footer-wrapper {
         flex-direction: column;
         padding-top: 96px;
@@ -541,27 +573,31 @@ footer {
     .image-container img {
         width: 100%;
     }
-    .product-desc{
+
+    .product-desc {
         font-size: 12px;
         font-weight: 400;
     }
 
-    .quantity{
+    .quantity {
         width: 78px;
         height: 33px;
     }
 
-    .quantity-num{
+    .quantity-num {
         font-size: 14px;
         font-weight: 600;
     }
-    .price-num{
+
+    .price-num {
         font-size: 13px;
         font-weight: 500;
     }
-    .currency{
+
+    .currency {
         font-size: 9px;
     }
+
     .footer-wrapper {
         flex-direction: column;
         padding-top: 96px;
