@@ -369,6 +369,10 @@ header {
 }
 
 /* SHOPPING CART */
+
+.phone-cart-product-container{
+    display: none;
+}
 .shopping-cart-navbar {
     border-bottom: 1px solid #E2E2E2;
     padding-bottom: 32px;
@@ -436,7 +440,6 @@ header {
 .product-details-column {
     display: flex;
     width: 100%;
-    /* height: 216px; */
 }
 
 .cart-product-info {
@@ -769,7 +772,6 @@ footer {
         display: block !important;
         position: absolute;
         top: 85px;
-        /* right: 40%; */
         border: none;
         background-color: transparent;
     }
@@ -797,6 +799,22 @@ footer {
         width: 10%;
     }
 
+    .go-to-home{
+        font-size: 14px;
+    }
+
+    .total-value-title{
+        font-size: 16px;
+    }
+
+    .total-value-number{
+        font-size: 24px;
+    }
+
+    .order-btn{
+        margin-top: 34px;
+        margin-bottom: 125px;
+    }
 }
 
 
@@ -987,5 +1005,101 @@ footer {
         align-items: baseline;
         margin-top: 62px;
         margin-bottom: 73px;
+    }
+
+    .cart-table{
+        display: none;
+    }
+
+    .shopping-cart{
+        margin-top: 72px !important;
+    }
+    .shopping-cart-header{
+        font-size: 20px;
+        margin-top: 38px;
+        margin-bottom: 28px;
+    }
+    .phone-cart-product-container{
+        display: flex;
+        border-top: 1px solid #DEDEDE;
+        border-bottom: 1px solid #DEDEDE;
+        flex-direction: column;
+        padding: 17px 0 32px;
+    }
+    .phone-remove-btn{
+        display: flex;
+        float: right;
+        background-color: transparent;
+        border: none;
+        margin-right: 19px;
+    }
+    .phone-remove-btn i{
+        font-size: x-large;
+    }
+    .phone-product-img-desc{
+        margin-top: 18px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .phone-product-img-container{
+        width: 43%;
+    }
+    .phone-product-img-container img{
+        width: 100%;
+    }
+    .phone-product-desc-title{
+        width: 55%;
+    }
+    .phone-cart-product-title{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .phone-product-desc{
+        font-size: 12px;
+        font-weight: 400;
+        color: #4A4A4A;
+    }
+    .phone-product-details{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 16px;
+    }
+    .phone-product-price-title, .phone-product-quantity-title, .phone-total-price-title{
+        font-weight: 500;
+        font-size: 11px;
+        margin-bottom: 8px;
+        color: #7C7C7C;
+    }
+    .phone-product-price, .phone-total-price{
+        font-weight: 500;
+        font-size: 13px;
+    }
+    .phone-product-quantity-btn *{
+        font-weight: 600;
+    }
+    .phone-product-quantity-btn button{
+        background-color: transparent;
+        border: none;
+    }
+    .go-to-home{
+        display: none;
+    }
+    .total-value-title{
+        font-size: 12px;
+    }
+    .total-value{
+        font-size: 16px;
+    }
+    .under-table-container1{
+        margin-top: 35px;
+    }
+    .total-value-container{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .order-btn{
+        margin-top: 34px;
+        width: 100%;
     }
 }
